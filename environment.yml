@@ -1,0 +1,16 @@
+name: langchain-google-chroma-bs4
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.*
+  - jupyterlab
+  - ipywidgets
+  - langchain
+  - langchain-community
+  - langchain-google-genai
+  - langchainhub
+  - beautifulsoup4
+  - pip
+  - pip:
+    - langchain-chroma
